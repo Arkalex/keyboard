@@ -42,7 +42,7 @@ body {
 }
 
 #addition_wrap {
-    width: 708px;
+    width: 743px;
     margin: -2px 0 0 0px;
     padding: 0 2px 2px;
     background: #4d4d4d;
@@ -174,12 +174,12 @@ body {
 }
 
 /*------- key width ------- */
-.k27, .k18.left {
+.k27, .kControlLeft.left {
     width: 38px;
     border-right-width: 9px;
 }
 
-.k192, .fn, .k18.right {
+.k192, .fn, .kControlRight.right {
     width: 38px;
     border-left-width: 9px;
 }
@@ -193,42 +193,42 @@ body {
     border-right-width: 10px;
 }
 
-.k8 {
-    width: 66px;
+.kBackspace {
+    width: 95px;
     border-left-width: 10px;
 }
 
-.k17 {
+.kCapsLock {
     width: 87px;
     border-right-width: 10px;
 }
 
-.k13 {
+.kEnter {
     width: 103px;
     border-left-width: 10px;
 }
 
-.k16.left {
+.kShiftLeft.left {
     width: 113px;
     border-right-width: 10px;
 }
 
-.k16.right {
+.kShiftRight.right {
     width: 77px;
     border-left-width: 10px;
 }
 
-.k91, .k93 {
+.kAltLeft, .k93 {
     width: 72px;
 }
-.k91 .top, .k93 .top {
+.kAltLeft .top, .k93 .top {
     font-size: 13px;
 }
-.k91 .bottom, .k93 .bottom {
+.kAltLeft .bottom, .k93 .bottom {
     font-size: 20px;
 }
 
-.k91.left {
+.kAltLeft.left {
     border-right-width: 10px;
 }
 
@@ -236,17 +236,22 @@ body {
     border-left-width: 10px;
 }
 
-.k32 {
-    width: 328px;
+.kSpace {
+    width: 363px;
     border-width: 3px 8px 10px;
 }
-.k32 .keycap {
-    width: 321px;
+.kSpace .keycap {
+    width: 356px;
 }
-.k32.pressed {
+.kSpace.pressed {
     -webkit-transform: scale(0.98, 0.95);
     -moz-transform: scale(0.98, 0.95);
     -ms-transform: scale(0.98, 0.95);
     -o-transform: scale(0.98, 0.95);
     transform: scale(0.98, 0.95);
+}
+
+
+.f_key .keycap.arrow {
+    text-indent: 14px;
 }
