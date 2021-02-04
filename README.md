@@ -2,3 +2,5 @@
 
 # Visual Keyboard
 [Visit site](https://keyboard.style/)
+
+Contains icons from [Icons8](https://icons8.com)
