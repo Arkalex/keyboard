@@ -3,6 +3,6 @@
 # Visual Keyboard
 [Visit site](https://keyboard.style/)
 
-![Site preview](https://github.com/Arkalex/keyboard/master/preview.png?raw=true)
+![Site preview](https://github.com/Arkalex/keyboard/blob/master/img/preview.png?raw=true)
 
 <sup>Contains icons from [Icons8](https://icons8.com)</sup>
